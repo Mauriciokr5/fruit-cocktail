@@ -197,27 +197,5 @@
                         </b></font>
                     </h1>
                     </div>
-                        
-                    <%
-                    if(nivel==2){
-                        %>
-                            <div name="registroasistencia" id="registroasistencia" style="display: none" align="center">
-                            <h3 >Asistencia</h3>
-                            Ingrese la asitencia del dia de hoy [dia de hoy]:
-
-
-                            <form method="post" action="">
-                                <input name="as" id="asistencia" type="text" onkeypress="return validarn(event)" maxlength="2" >
-                                <br>
-                                <input class="asbotonclass" id="asboton"type="submit" value="Enviar">
-                            </form>
-                        </div>
-                        
-                        <%
-                    }
-                    
-                    
-                    %>    
-     
     </body>
 </html>
