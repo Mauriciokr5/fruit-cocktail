@@ -1,0 +1,13 @@
+SMAP
+editarIngrediente_jsp.java
+JSP
+*S JSP
+*F
++ 0 editarIngrediente.jsp
+editarIngrediente.jsp
+*L
+5,8:44
+12,17:52
+29,2:69,3
+31,23:75
+*E

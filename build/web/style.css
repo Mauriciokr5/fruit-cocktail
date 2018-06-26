@@ -1,0 +1,110 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?he9j46');
+  src:  url('fonts/icomoon.eot?he9j46#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?he9j46') format('truetype'),
+    url('fonts/icomoon.woff?he9j46') format('woff'),
+    url('fonts/icomoon.svg?he9j46#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-inicio:before {
+  content: "\e900";
+}
+.icon-editar:before {
+  content: "\e905";
+}
+.icon-calcular:before {
+  content: "\e940";
+}
+.icon-calendario:before {
+  content: "\e953";
+}
+.icon-imprimir:before {
+  content: "\e954";
+}
+.icon-guardar:before {
+  content: "\e962";
+}
+.icon-usuario:before {
+  content: "\e971";
+}
+.icon-usuarios:before {
+  content: "\e972";
+}
+.icon-agregar-usuario:before {
+  content: "\e973";
+}
+.icon-eliminar-usuario:before {
+  content: "\e974";
+}
+.icon-borrar:before {
+  content: "\e9ac";
+}
+.icon-internet:before {
+  content: "\e9c9";
+}
+.icon-tierra:before {
+  content: "\e9ca";
+}
+.icon-notification:before {
+  content: "\ea08";
+}
+.icon-question:before {
+  content: "\ea09";
+}
+.icon-agregar:before {
+  content: "\ea0a";
+}
+.icon-cancelar:before {
+  content: "\ea0d";
+}
+.icon-equis:before {
+  content: "\ea0f";
+}
+.icon-checkmark:before {
+  content: "\ea10";
+}
+.icon-entrar:before {
+  content: "\ea13";
+}
+.icon-salir:before {
+  content: "\ea14";
+}
+.icon-random:before {
+  content: "\ea30";
+}
+.icon-circle-up:before {
+  content: "\ea41";
+}
+.icon-circle-right:before {
+  content: "\ea42";
+}
+.icon-circle-down:before {
+  content: "\ea43";
+}
+.icon-circle-left:before {
+  content: "\ea44";
+}
+.icon-checkbox-checked:before {
+  content: "\ea52";
+}
+.icon-checkbox-unchecked:before {
+  content: "\ea53";
+}

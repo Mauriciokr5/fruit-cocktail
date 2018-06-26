@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?dieny4');
+  src:  url('fonts/icomoon.eot?dieny4#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?dieny4') format('truetype'),
+    url('fonts/icomoon.woff?dieny4') format('woff'),
+    url('fonts/icomoon.svg?dieny4#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Inicio:before {
+  content: "\e900";
+}
+.icon-Contactos:before {
+  content: "\e923";
+}
+.icon-Categorias:before {
+  content: "\e92e";
+}
+.icon-Servicios:before {
+  content: "\e991";
+}
+.icon-Acerca-de:before {
+  content: "\e9c9";
+}

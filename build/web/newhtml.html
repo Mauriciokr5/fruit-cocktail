@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="SRC/iwachu.ico" rel="icon">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link rel="stylesheet" href="CSS/bootstrap.css">
+        
+        <link rel="stylesheet" href="adcss.css">
+        
+        <link rel="stylesheet" href="style.css">
+        
+        <link rel="stylesheet" href="CSS/calendariocss.css">
+    </head>
+    <body style="background-color: black;">
+        <div class="container">
+            <div class="col-sm-2" ></div>
+            <div >
+        <table  class="tablaUsuarios col-sm-6">
+            
+            <tr>
+                
+                <th>Id</th>
+                <th>Usuario</th>
+                <th>Contraseña</th>
+                <th>Rol</th>
+                <th style="width: 50px;">edit</th>
+                <th style="width: 50px;">elim</th>
+                
+            </tr>
+            
+            
+                        
+                           
+                                        <tr >
+                                            <td colspan="6" class="fila_agregar" bgcolor="#d3d3d3">
+                                                
+                                                <form action="agregarUsu">
+
+                                                <button type="submit" class="btn2">
+                                                <i class="icon icon-agregar-usuario"></i>
+                                                </button>
+                                                </form>
+                                            </td>
+                                            
+                                        </tr>
+                            <tr>            
+                            <td>hi</td>
+                            <td>hi</td>
+                            <td>hi</td>
+                            <td>hi
+                            </td>
+                            <td>
+                                <form action="editarUsu">
+                                    <input type="text" style="display: none" value="<%out.print(lista.get(i).getIdUsuarios());%>">
+                                    <button type="submit" class="btn">
+                                    <i class="icon icon-editar"></i>
+                                    </button>
+                                </form>
+                                
+                                            
+                            </td>
+                            <td>
+                                <form action="eliminarUsu">
+                                    <input type="text" style="display: none" value="<%out.print(lista.get(i).getIdUsuarios());%>">
+                                    <button type="submit" class="btn">
+                                    <i class="icon icon-eliminar-usuario"></i>
+                                    </button>
+                                </form>
+                                
+                                            
+                            </td>
+                            
+                        </tr>
+                        <tr>            
+                            <td>hi</td>
+                            <td>hi</td>
+                            <td>hi</td>
+                            <td>hi
+                            </td>
+                            <td>
+                                <form action="editarUsu">
+                                    <input type="text" style="display: none" value="<%out.print(lista.get(i).getIdUsuarios());%>">
+                                    <button type="submit" class="btn">
+                                    <i class="icon icon-editar"></i>
+                                    </button>
+                                </form>
+                                
+                                            
+                            </td>
+                            <td>
+                                <form action="eliminarUsu">
+                                    <input type="text" style="display: none" value="<%out.print(lista.get(i).getIdUsuarios());%>">
+                                    <button type="submit" class="btn">
+                                    <i class="icon icon-eliminar-usuario"></i>
+                                    </button>
+                                </form>
+                                
+                                            
+                            </td>
+                            
+                        </tr>
+                        
+                        
+                        
+                
+        </table>
+            </div>
+            <div class="col-sm-2" ></div>
+        </div>
+        
+        <script  src="JS\jquery.js" ></script> 
+        <script src="JS\bootstrap.js" ></script>
+    </body>
+</html>

@@ -1,0 +1,207 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 7/05/2018, 06:13:01 PM
+    Author     : Alumno
+*/
+
+* {
+    font-family: 'Montserrat', sans-serif;
+	margin:0;
+	padding:0;
+	 box-sizing: border-box;
+}
+
+body{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 330vh;
+}
+h1{
+    color: white;
+    font-size: 200% ;
+    font-weight: bold;
+}
+
+h3{
+    color: white;
+    font-size: 500% ;
+    font-weight: bold;
+}
+h4{
+    color: black;
+    font-size: 200% ;
+    font-weight: bold;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: arial;
+    margin-top: 80px;
+    color: aqua;
+    text-shadow: 0px 0px 6px black;
+}
+
+.content-all{
+    width: 210px;
+    margin: auto;
+    perspective: 800px;
+    position: relative;
+    margin-top: 50px;
+}
+
+
+ 
+header {
+	margin-top:10px;
+    width: 100%;
+    overflow: hidden;
+    height: 150px;
+    position: relative;
+}
+ 
+nav {
+    top:-20px;
+    position: absolute;
+    left:0;
+    right:0;
+	margin:20px auto;
+	max-width:1000px;
+	width:90%;
+    
+}
+ 
+nav ul {
+	list-style:none;
+}
+ 
+nav > ul {
+	display:table;
+	width:100%;
+	background:#000;
+	position:relative;
+}
+ 
+nav > ul li {
+	display:table-cell;
+}
+ 
+/*Sub-menu*/
+nav > ul > li:hover > ul {
+	display:block;
+	height:100%;
+}
+ 
+nav > ul > li > ul {
+	display:block;
+	position:absolute;
+	background:#000;
+	left:0;
+	right:0;
+	overflow:hidden;
+	height:0%;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+ 
+nav > ul li a {
+        font-family: 'Montserrat', sans-serif;
+	color:#d3d3d3;
+	display:block;
+	line-height:20px;
+	padding:20px;
+	position: relative;
+	text-align:center;
+	text-decoration:none;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+ 
+nav > ul > li > ul > li a:hover {
+	background:#5da5a2;
+}
+ 
+nav > ul > li > a span {
+	background:#174459;
+	display:block;
+	height:100%;
+	width:100%;
+	left:0;
+	position:absolute;
+	top:-55px;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+ 
+nav > ul > li > a span .icon {
+	display:block;
+	line-height:60px;
+}
+ 
+nav > ul > li > a:hover > span {
+	top:0;
+}
+ 
+/*Colores*/
+nav ul li a .primero {
+	background:white;
+}
+ 
+nav ul li a .segundo {
+	background:white;
+}
+ 
+nav ul li a .tercero {
+	background:white;
+}
+ 
+nav ul li a .cuarto {
+	background:white;
+}
+ 
+nav ul li a .quinto {
+	background:white;
+}
+nav ul li a .septimo {
+	background:#fff;
+}
+
+#asistencia{
+     display:block;
+	line-height:20px;
+	
+	position: relative;
+	text-align:center;
+	text-decoration:none;
+        font-size: 50px;
+        width: 80px;
+        height:  60px;
+}
+
+.asbotonclass{
+text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #174459;
+    border-radius: 6px;
+    border: 0px solid #fff;
+  }
+.asbotonclass:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+  }
